@@ -20,8 +20,11 @@ JiYeon Lee
 ## Results
 
 dataset : WESAD: Multimodal Dataset for Wearable Stress and Affect Detection (available : https://uni-siegen.sciebo.de/s/HGdUkoNlW1Ub0Gx)
+
 preprocess code : pkl_to_csv.ipynb / preprocess_binary_class.ipynb
+
 model code : final_model_binary(i)_smoteenn.ipynb
+
 
 Resampling을 적용하지 않았을 때에도 13명의 subject에 대해 성능이 개선된 스트레스 감지 모델을 만들었고, resampling을 통해 성능을 더욱 향상시켜 14명 모든 subject에 대해 성능을 개선시켰다.
 
@@ -32,4 +35,5 @@ WESAD data는 wrist센서와 chest센서에서 수집된 데이터였고, 데이
 
 ## References
 [1] Fitri Indra Indikawati1 & Sri Winiarti1(2020). Stress Detection from Multimodal Wearable Sensor Data. IOP Conf. Series: Materials Science and Engineering, 771, 012028
+
 [2] Prerna Garg, Jayasankar Santhosh, Andreas Dengel, and Shoya Ishimaru. 2021. Stress Detection by Machine Learning and Wearable Sensors. In 26th International Conference on Intelligent User Interfaces (IUI ’21 Companion), April 14–17, 2021, College Station, TX, USA. ACM, New York, NY, USA, 5 pages.

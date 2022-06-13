@@ -4,6 +4,7 @@
 : 웨어러블 센서 기반 스트레스 감지 모델 개발
 
 * Student list
+
 JiYeon Lee
 
 ## Overview
